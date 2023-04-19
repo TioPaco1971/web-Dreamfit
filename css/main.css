@@ -1,7 +1,62 @@
-  .img-fluid{
-    max-width: 100%;
-    height: auto;
-  }
-.bg-primary{
+.bg-primary-css{
     background-color: rgb(251,195,4);
 }
+.container {
+    display: flex; /* or inline-flex */
+  }
+.item {
+    order: 5; /* default is 0 */
+  }
+.bg-navbar{
+    background-color: rgb(251,195,4);
+}
+.navbar{
+    max-height: 10%;
+    width: auto;
+}
+.img-fluid-header{
+    max-width: 25%;
+    height: auto;
+  }
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: rgb(207, 152, 0);
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: rgb(207, 152, 0);
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
