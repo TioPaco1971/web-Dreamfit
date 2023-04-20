@@ -18,6 +18,10 @@
     max-width: 25%;
     height: auto;
   }
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+  }  
   .navigation {
     display: flex;
     flex-flow: row wrap;
@@ -59,4 +63,13 @@
     .navigation li:last-of-type a {
       border-bottom: none;
     }
+  }
+  #cabecera {
+    min-height: 400px;text-align: center;
+    color: #fff;
+    
+    background-image: src('../images/foto1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
