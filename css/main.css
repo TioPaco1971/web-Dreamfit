@@ -18,7 +18,7 @@
     max-width: 90%;
     height: auto;
   }
-  .img-fluid{
+/*  .img-fluid{
     max-width: 100%;
     height: auto;
   }  
@@ -64,12 +64,15 @@
       border-bottom: none;
     }
   }
-  #cabecera {
-    min-height: 400px;text-align: center;
-    color: #fff;
-    
-    background-image: src('../images/foto1');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+.bg-main{
+  background-image: url(images/Fondo3web.png);
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text{
+  
+}
