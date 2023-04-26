@@ -1,4 +1,10 @@
 body{
     color: black;
 }
-
+p{
+    font-family: 'Open Sans';
+    src: url('fonts/Alias-Cactus-Black.woff2') format('woff2'),
+      url('fonts/opensans-regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
