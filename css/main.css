@@ -15,14 +15,14 @@
     width: auto;
 }
 .img-fluid-header{
-    max-width: 25%;
+    max-width: 90%;
     height: auto;
   }
   .img-fluid{
     max-width: 100%;
     height: auto;
   }  
-  .navigation {
+/*  .navigation {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -42,7 +42,7 @@
   .navigation a:hover {
     background: rgb(207, 152, 0);
   }
-  
+*/  
   @media all and (max-width: 800px) {
     .navigation {
       justify-content: space-around;
