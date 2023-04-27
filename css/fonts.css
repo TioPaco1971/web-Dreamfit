@@ -1,10 +1,10 @@
 body{
     color: black;
 }
-p{
-    font-family: 'Open Sans';
-    src: url('fonts/Alias-Cactus-Black.woff2') format('woff2'),
-      url('fonts/opensans-regular.woff') format('woff');
+@font-face {
+    font-family: 'Alias-Cactus-Black';
+    src: url('../fonts/Alias-Cactus-Black.woff') format('woff'),
+      url('../fonts/Alias-Cactus-Black.ttf') format('ttf');
     font-style: normal;
     font-weight: normal;
 }
