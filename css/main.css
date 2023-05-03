@@ -8,7 +8,7 @@
     order: 5; /* default is 0 */
   }
 .bg-navbar{
-    background-color: rgb(251,195,4);
+    background-color: rgb(59,68,75);
 }
 .navbar{
     max-height: 10%;
@@ -73,9 +73,19 @@
   background-size: cover;
   position: relative;
 }
-.text{
-  
-}
 .boton{
   background-color: rgb(251,195,4);
+}
+.text-center{
+  display: flex;
+  align-items: center;
+}
+.bg-main2{
+  background-image: url(../images/img-lame-2.jpg);
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
