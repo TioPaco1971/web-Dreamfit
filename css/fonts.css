@@ -8,3 +8,12 @@ body{
     font-style: normal;
     font-weight: normal;
 }
+
+h2{
+    font-family: 'Alias-Cactus-Black';
+    font-size: 100px;
+}
+h3{
+    font-family: 'Alias-Cactus-Black';
+    font-size: 50px;
+}
